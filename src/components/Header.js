@@ -5,11 +5,13 @@ const Header = () => {
     return (
         <div className="flex justify-between shadow-md items-center border border-2 border-solid border-slate-200 bg-gradient-to-tl from-slate-300 mt-2 mb-3 ">
             <div className="relative">
-                <img
-                    className="h-20 w-20  "
-                    src={FOOD_VILLA_URL}
-                    alt=""
-                />
+                <a href="#">
+                    <img
+                        className="h-20 w-20 p-1 rounded-xl  "
+                        src={FOOD_VILLA_URL}
+                        alt="logo"
+                    />
+                </a>
             </div>
             <div className="mr-10 ">
                 <ul className="flex gap-5">
